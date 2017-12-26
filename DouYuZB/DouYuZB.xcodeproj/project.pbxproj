@@ -10,8 +10,8 @@
 		F6A61E0F1FF2152900F12AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61E0E1FF2152900F12AB4 /* AppDelegate.swift */; };
 		F6A61E111FF2152900F12AB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A61E101FF2152900F12AB4 /* ViewController.swift */; };
 		F6A61E141FF2152900F12AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A61E121FF2152900F12AB4 /* Main.storyboard */; };
-		F6A61E161FF2152900F12AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A61E151FF2152900F12AB4 /* Assets.xcassets */; };
 		F6A61E191FF2152900F12AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A61E171FF2152900F12AB4 /* LaunchScreen.storyboard */; };
+		F6A61E201FF239D900F12AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A61E151FF2152900F12AB4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6A61E191FF2152900F12AB4 /* LaunchScreen.storyboard in Resources */,
-				F6A61E161FF2152900F12AB4 /* Assets.xcassets in Resources */,
+				F6A61E201FF239D900F12AB4 /* Assets.xcassets in Resources */,
 				F6A61E141FF2152900F12AB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +274,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhouxiaoyan.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,8 +290,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhouxiaoyan.DouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
